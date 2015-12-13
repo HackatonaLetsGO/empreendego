@@ -1,0 +1,516 @@
+.cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-template-page-landing {
+    background-image: url('../img/bg_EmprendeGO-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.landing {
+    padding: 100px 0;
+}
+
+.landing h1 {
+    margin: 50px 0;
+    font-family: 'Rubrik',sans-serif;
+    font-size: 52px;
+}
+
+.landing select {
+    width: 100%;
+    border-radius: 25px;
+    height: 42px;
+    border: 1px solid #EBEBEB;
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-size: 15px;
+    padding: 10px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.landing select:focus {
+    outline: none;
+    border-radius: 0;
+}
+
+.landing .btn {
+    padding: 10px 15px;
+    color: #FFF;
+    border: 1px solid #6BC5EA;
+    background-color: #6BC5EA;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.landing .btn:hover, .landing .btn:focus {
+    outline: none;
+    color: #6BC5EA;
+    background-color: #FFF;
+}
+
+@media (max-width: 480px){
+    .landing {
+        padding: 25px 0;
+    }
+    .landing h1 {
+        margin: 25px 0;
+        font-size: 32px;
+    }
+
+}
+
+.yellow {
+    color: #FFD700;
+}
+
+.azul-claro {
+    color: #6BC5EA;
+}
+
+.back-yellow {
+    background-color: #FFD700;
+}
+
+.topo-pra-voce-fibra {
+    background-image: url('../img/pra_voce_fibra.jpg');
+}
+
+.topo-pra-voce-club {
+    background-image: url('../img/pra_voce_club.jpg');
+}
+
+.topo-pra-sua-empresa-pme {
+    background-image: url('../img/pra-sua-empresa-pme.jpg');
+}
+
+.topo-pra-sua-empresa-corp {
+    background-image: url('../img/pra-sua-empresa-corp.jpg');
+}
+
+.topo-pra-sua-empresa-tic {
+    background-color: #6BC4EA;
+}
+
+.tab-pra-voce, .tab-pra-sua-empresa {
+    margin-top: -64px;
+}
+
+.tab-interna{
+    margin-top: -63px;
+}
+
+.tab-interna li{
+    cursor:pointer;
+}
+
+.tabs{
+    border-bottom: none;
+}
+
+.tabs li{
+    width:50%;
+    padding:15px 0;
+    position:relative;
+    border-radius:0;
+    background-color: #343E48;
+}
+
+.tab-pra-sua-empresa .tabs li{
+    width:33%;
+}
+
+.tabs li a{
+    color:#fff;
+    font-size: 20px;
+    border-radius:0;
+    border: 0;
+    text-align: center;
+    padding:3px 0 3px 40px;
+}
+
+.tabs li.active a, .tabs li:hover a{
+    color: #343E48;
+    background-color: transparent;
+    border: 0;
+}
+
+.tabs li.active, .tabs li:hover{
+    background-color: #FFF;
+    border-radius:0;
+    border: 0;
+}
+
+.tabs>li.active>a, .tabs>li.active>a:hover, .tabs>li.active>a:focus {
+    border: 0;
+}
+
+.tabs li.active:after{
+    background: url(../img/setinha-azul-claro-top.png) no-repeat center center;
+    width:26px;
+    height:13px;
+    content:'';
+    position:absolute;
+    left:45%;
+    bottom:0;
+    z-index: 999;
+}
+
+.tabs li:first-child{
+    border-radius: 10px 0 0 0;
+}
+
+.tabs li:last-child{
+    border-radius:0 10px 0 0;
+}
+
+.tab-pra-voce .aba-club a {
+    background: url(../img/aba-club-azul.png) no-repeat 50px 0;
+}
+
+.tab-pra-voce .aba-fibra a {
+    background: url(../img/aba-fibra-azul.png) no-repeat 50px 0;
+}
+
+.tab-pra-sua-empresa .aba-pme a {
+    background: url(../img/aba-pme-azul.png) no-repeat;
+}
+
+.tab-pra-sua-empresa .aba-corp a {
+    background: url(../img/aba-corp-azul.png) no-repeat;
+}
+
+.tab-pra-sua-empresa .aba-tic a {
+    background: url(../img/aba-tic-azul.png) no-repeat;
+}
+
+.tab-pra-sua-empresa .tabs li a {
+    background-size: 30px;
+    background-position: 50px center;
+    border-radius: 0;
+}
+
+.single-cidades .titulo-interna, .page-template-page-sua-empresa .titulo-interna{
+    padding: 80px 0 100px;
+}
+
+.single-cidades .breadcrumb, .page-template-page-sua-empresa .breadcrumb {
+    bottom: -215px;
+}
+
+.back-azul {
+    background-color: #6BC5EA;
+    border-radius: 0 0 10px 10px;
+    padding: 25px 0;
+}
+
+.livre p {
+    font-size: 42px;
+    line-height: 44px;
+    padding: 10px 0 0 30px;
+}
+
+.fibra {
+    background-image: url(../img/icon-fibra.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 35px 0 35px 40px;
+}
+
+.page-template-page-sua-empresa .fibra {
+    padding: 25px 0 25px 40px;
+}
+
+.wireless {
+    background-image: url(../img/icon-wireless.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 35px 0 35px 40px;
+}
+
+.fibra-azul {
+    background-image: url(../img/ico-fibra-azul.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 10px 0 10px 40px;
+}
+
+.wireless-azul {
+    background-image: url(../img/icon-wireless-azul.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 10px 0 10px 50px;
+}
+
+.tec-wireless {
+    background-image: url(../img/icon-tecnologia-wireless.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 10px 0 10px 40px;
+}
+
+.velocidade {
+    background-image: url(../img/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 35px 0 35px 40px;
+}
+
+.radio-enlace {
+    background-image: url(../img/icon-radio-enlace.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 25px;
+    padding: 25px 0 25px 60px;
+}
+
+.beneficios li {
+    margin-bottom: 10px;
+}
+
+.beneficios img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.voce_tem {
+    padding: 20px 0;
+}
+
+.voce_tem ul li {
+    width: 25%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+    padding: 0 0 0 50px;
+    margin: 15px 0;
+}
+
+.voce_tem ul .licorp {
+    width: 50%;
+}
+
+.voce_tem .text{
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.chamada-slider {
+    top: 0;
+}
+
+.aviso {
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 30px 0;
+    background-color: #EBEBEB;
+}
+
+.aviso p {
+    font-size: 11px;
+    color: #A1A1A1;
+}
+
+.border {
+    border-top: 1px solid #DDD;
+    padding-top: 25px;
+}
+
+.escolha {
+    border: 1px solid #FFD700;
+    border-radius: 10px;
+}
+
+.escolha .col-md-2 {
+    padding: 10px 0 0;
+}
+
+.escolha .col-md-2 img {
+    width: 15px;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+.escolha .col-md-2 .choice {
+    padding: 15px 25px 20px;
+    border-right: 1px solid #EBEBEB;
+}
+
+.escolha .col-md-2 .choice.destack {
+    background-color: #6BC5EA;
+}
+
+.escolha .col-md-2 .choice.destack {
+    border-right: 1px solid transparent;
+    background-image: url('../img/border-destack.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 1px 60px;
+    height:96px;
+}
+
+.escolha .col-md-2 .choice.destack .valor {
+    color: #FFF;
+}
+
+.escolha .col-md-2 .choice.destack h4 {
+    font-family: "Rubrik", sans-serif;
+    font-size: 20px;
+    padding: 4px 0;
+    margin: 0;
+}
+
+.escolha .col-md-2:last-child .choice, .escolha .col-md-2:first-child .choice {
+    border-right: 1px solid transparent;
+}
+
+.escolha .col-md-2.back-yellow {
+    font-size: 28px;
+    line-height: 36px;
+    border-radius: 10px 0 0 10px;
+}
+
+.escolha .valor {
+    font-family: "RubrikBold", sans-serif;
+    color: #6BC5EA;
+    font-size:55px;
+    line-height:55px;
+    letter-spacing: -0.08em;
+}
+
+.escolha .valor-small {
+    font-size: 22px;
+    line-height: 22px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left:3px
+letter-spacing: -0.08em
+}
+
+.lighter {
+    font-family: "Rubrik", sans-serif;
+}
+
+.border-right-yellow {
+    border-right: 1px solid #FFD700;
+}
+
+.btn-azul {
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-family: 'Rubrik', sans-serif;
+    font-size: 12px;
+    border: 1px solid #6EC4EE;
+    color: #222;
+    background-color: #fff;
+}
+
+.btn-azul:hover {
+    background-color: #6EC4EE;
+}
+
+@media (max-width: 480px) {
+    .mobile-text-center {
+        text-align: center !important;
+    }
+    .tab-pra-voce .tabs li a {
+        padding: 3px 0 3px 30px;
+        font-size: 18px;
+        padding:5px;
+        text-align: center;
+        background-image: none;
+    }
+    .tab-pra-voce .aba-fibra a {
+        background-position: 5px center;
+        background-size: 30px;
+    }
+    .tab-pra-voce .aba-club a {
+        background-position: 5px center;
+        background-size: 30px;
+    }
+    .livre {
+        font-size: 32px;
+        line-height: 34px;
+        padding: 0;
+    }
+    .fibra, .velocidade, .wireless, .radio-enlace{
+        padding: 5px 0 5px 60px;
+    }
+
+    .escolha .col-md-2 {
+        padding: 5px 15px;
+    }
+
+    .escolha .col-md-2 .choice {
+        border-bottom: 1px solid #EBEBEB;
+        border-right: 1px solid transparent;
+        text-align: center;
+    }
+    .escolha .col-md-2:last-child .choice, .escolha .col-md-2:first-child .choice {
+        border-bottom: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+    .chamada-slider {
+        margin: 15px 0;
+    }
+    .fibra-azul, .tec-wireless, .wireless-azul {
+        margin: 15px 0;
+    }
+    .border-right-yellow {
+        border-right: 0;
+    }
+
+    .tab-interna{
+        margin-top: 4px;
+    }
+}

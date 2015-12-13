@@ -1,0 +1,3 @@
+$(function (){
+    $("#setor").select2();
+});
